@@ -1,0 +1,479 @@
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-content: flex-end;
+  /*padding-left: 5%;*/
+  padding-right: 20%;
+}
+
+* {
+  border: 1px solid transparent;
+
+}
+
+/*#white-outermost-wrapper {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-content: flex-end;
+  padding-left: 0;
+  padding-right:35%;
+}*/
+
+#grey-outer-wrapper {
+  background-color: #F1F2F3;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-content: flex-end;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+div.background-gradient-container{
+  background: -webkit-radial-gradient(right 28%,#DBDDDF, #C6CCCF, #A7B1B9);
+  height: 100%;
+  width: 100%;
+  border: 0 solid;
+  margin: 0;
+}
+
+div.top-nav {
+  position: relative;
+  height: 80px;
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 20px;
+  box-sizing:border-box;
+}
+
+div .top-nav-down-arrow{
+float:left;
+text-align: left;
+vertical-align: middle;
+}
+
+div .top-nav-mockuuups-icon{
+float:none;
+text-align: center;
+vertical-align: middle;
+}
+
+div .top-nav-media-links{
+float:right;
+text-align:center;
+vertical-align: middle;
+}
+
+div.main-splash {
+  height: 690px;
+  background-color: transparent;;
+  border-top-style: solid;
+  border-top-color: #D5D9DB;
+  border-top-width: thin;
+  padding: 0;
+}
+
+div.main-splash-left {
+  width: 400px;
+  float: left;
+  text-align: left;
+  padding-left: 165px;
+}
+
+
+div.spacer-box {
+  height: 175px;
+}
+
+div.new-iphone-text {
+  font-size: 2.5em;
+  font-weight: bold;
+  height: 50px;
+  box-sizing:border-box;
+  color: #EFF1F2;
+}
+
+div.new-mockuuups-text {
+  font-size: 3.0em;
+  letter-spacing: .02em;
+  font-weight: 100;
+  font-family: Arial;
+  font-stretch: ultra-expanded;
+  height: 70px;
+  color: #F5F6F7
+}
+
+div.adjustable-mockup-text {
+  font-size: 1.3em;
+  letter-spacing: .015em;
+  font-weight: 100;
+  font-family: Arial;
+  font-stretch: extra-expanded;
+  height: 70px;
+  color: #F5F6F7;
+  width: 600px;
+}
+
+
+div.splash-button-and-text{
+width: 500px;
+/*vertical-align: middle;
+text-align: center;*/
+}
+
+div.green-box {
+  width: 340px;
+  float: left;
+  background-color: #3FD000;
+  height: 70px;
+  border-radius: 5px;
+  padding-top: 15px;
+  box-sizing:border-box;
+}
+
+div div.green-box.link{
+  background-color: transparent;
+}
+
+div.view-package-text {
+  width: 150px;
+  float: left;
+  height: 70px;
+  background-color: transparent;;
+  color: white;
+  font-size: .75em;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: middle;
+  padding-top: 30px;
+  box-sizing:border-box;
+}
+
+
+
+/*.splash-button-and-text < div{
+  width: 300px;
+  padding: 0px;
+}*/
+
+.main-splash-left > div {
+  font-family: Arial;
+}
+
+div .splash-right-side{
+  float:right;
+  background: transparent;
+  border: 0px;
+  margin: 0px;
+  size: 720px;
+}
+
+
+
+
+div.top-mid-pane-outer-image-container{
+  height: 435px;
+  padding-left: 350px;
+  padding-left: 60px;
+  border-bottom-style: solid;
+  border-bottom-color: #ABABAB;
+  border-bottom-width: thin;
+  box-sizing:border-box;
+  background-color: #FFFFFF;
+  width:100%;
+  flex-wrap:wrap;
+  display: flex;
+  flex-direction:row;
+  align-content: center;
+}
+
+.top-mid-pane-outer-image-container div img {
+  float:left;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 75px;
+  padding-left: 20px;
+  align-items: center;
+  height: 240px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  /*width: 460px;*/
+}
+
+.top-mid-pane-outer-image-container div:hover img {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.bottom-mid-pane-outer > div {
+  align-items: center;
+  float:left;
+  width: 100%;
+  /*background:#FFFFFF;*/
+  /*border:none;*/
+  box-sizing:border-box;
+}
+
+div.bottom-mid-pane-outer{
+  /*background-color: orange;*/
+  height:325px;
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+
+div.bottom-mid-empty-div-for-top-spacing {
+  width:100%;
+  height: 90px;
+  background-color: #FFFFFF;
+}
+
+div.made-for-you-message{
+  font-size: 2em;
+  letter-spacing: .02em;
+  font-weight: 100;
+  font-family: Arial;
+  font-stretch: ultra-expanded;
+  height: 70px;
+  color: #3D3D3D;
+  background-color: #FFFFFF;
+  padding-top: 20px;
+}
+
+div.trusted-message{
+  color:#ABABAB;
+  font-size: 1.15em;
+  font-weight: 100;
+  font-family: Arial;
+  font-stretch: ultra-expanded;
+  height: 50px;
+  background-color: #FFFFFF;
+}
+
+div.container-for-dribble-button{
+  text-align: center;
+  padding-left: 42%;
+  background-color: #FFFFFF;
+}
+div div div.dribble-button{
+  /**/having a hard time getting the border to show...
+  background-color: #F1F2F3;
+  padding-top: 25px;
+  height: 70px;
+  width: 265px;
+  align-items: center;
+  float:left;
+  text-align: center;
+  font-size: .1.05em;
+  font-weight: 100;
+  font-family: Arial;
+  font-weight: bolder;
+  color: grey;
+  border-color: grey;
+  border-radius: 5px;
+  box-sizing:border-box;
+  border-width: medium;
+}
+img.dribble-button-icon{
+  height: 20px;
+  width: 20px;
+  padding-top: 5px;
+  box-sizing:border-box;
+  float:left;
+  padding-left:5px;
+}
+div.dribble-button-text{
+  float:right;
+  text-align: right;
+  font-size: .95em;
+  font-weight: 100;
+  font-family: Arial;
+  font-weight: bolder;
+  color: grey;
+}
+div.bottom-mid-empty-div-for-bottom-spacing{
+  width:100%;
+  height: 80px;
+  background-color: #FFFFFF;
+}
+
+/* BEGIN WORKING ON MY FIRST FLEXBOX*/
+
+div.container-for-ten-pane-and-top-grey{
+  width:100%;
+  height:100%;
+  background: #293136;
+  margin:0;
+  border:0;
+  padding:0;
+  box-sizing:border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  box-sizing:border-box;
+
+}
+
+
+div.container-for-ten-pane{
+  width: 100%;
+  margin: 0;
+  padding:0;
+  background: #293136;
+  box-sizing:border-box;
+  height:60%;
+  box-sizing:border-box;
+
+}
+img.ten-pane-image{
+  width: 100%;
+  margin: 0;
+  border:0;
+  padding:0;
+  /*height: 60%;*/
+  box-sizing:border-box;
+
+}
+
+
+div.grey-top-portion-outer-container{
+  background-color: #293136;
+  margin: 0;
+  padding:0;
+  height:40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;;
+  align-items: center;
+  border-top-style: solid;
+  border-top-color: #3D3D3D;
+  border-top-width: thin;
+  box-sizing:border-box;
+}
+
+div.free-sample-text{
+  background-color: transparent;
+  margin: 10%;
+  width: 40rem;
+  font-size: 2.2rem;
+  text-align:center;
+  color: #FFFFFF;
+  font-weight: 100;
+  font-family: Arial;
+  display:flex;
+  align-items: center;
+  box-sizing:border-box;
+
+}
+
+div.made-to-modify-text{
+  background-color: transparent;
+  width: 42rem;
+  color:#6E757A;
+  font-size: 1.3rem;
+  text-align:center;
+  font-weight: 100;
+  font-family: Arial;
+  box-sizing:border-box;
+
+}
+
+
+/*  BEGIN EMAIL LIST  FORM HERE*/
+
+div.mailing-list-container{
+  background-color: transparent;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  box-sizing:border-box;
+
+}
+
+form.email-addy-form{
+  background-color: transparent;
+  width: 30rem;
+  height:3rem;
+  padding:0;
+  color:#6E757A;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing:border-box;
+
+}
+
+input.email-addy-input-box {
+  background-color: transparent;
+  width: 70%;
+  color:#6E757A;
+  border-color: #6E757A;
+  border-radius: 8px;
+  height:100%;
+  padding:0;
+  box-sizing:border-box;
+  margin-right:2rem;
+}
+
+
+div.green-get-now-button{
+  background-color: #3FD000;
+  width: 30%;
+  color:#FFFFFF;
+  border-radius: 5px;
+  height:100%;
+  font-size: .75rem;
+  text-align:center;
+  font-weight: 100;
+  font-family: Arial;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  box-sizing:border-box;
+
+}
+
+/*  END EMAIL LIST FORM HERE*/
+
+
+/*div.grey-bottom-portion-outer-container{
+  background-color: #293136;
+  height: 350px;
+  padding:0px;
+
+}*/
+/*
+div.bottom-most-grey-outer-container{
+  background-color: #293136;
+  height: 150px;
+  padding:0px;
+  /*border-top-style: solid;
+  border-top-color: #3D3D3D;
+  border-top-width: thin;
+  box-sizing:border-box;*/
+}*/
